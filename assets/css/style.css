@@ -1,5 +1,15 @@
 body{
     background-color: rgba(241, 247, 255,.81);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;;
+}
+ul{
+    padding:0;
+    margin:0;
+}
+li{
+    margin:0;
+    padding:0;
 }
 .headerBackground{
     background-image: url("../Images/background.png");
@@ -8,4 +18,132 @@ body{
     background-position: center center;
     border-radius:0 0 15px 15px;
     overflow: hidden;
+    height: 380px;
+    width:100%;;
+}
+.invoiceBody .row {
+    display: flex;
+    justify-content: center
+}
+
+.jawainvoice{
+    background-color:white;
+    padding:25px 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    width:100%;
+}
+img{
+    width:100%;
+}
+.invoiceFooter{
+    padding:66px 100px 55px 100px;
+}
+.invoiceDetails{
+    margin-top:36px;
+    margin-bottom: 32px;;
+}
+.invoiceDetailsTitle{
+    font-weight: 600;
+    color:#C57A2D;
+    margin-bottom:20px;
+}
+.invoiceDetailsList{
+    list-style-type: none;
+}
+.invoiceDetailsList li{
+    font-size:15px;
+    color:#7A7A7A;
+    margin-bottom: 10px;;
+}
+.invoiceBody .row .row{
+    justify-content: left;
+}
+.invoiceBody{
+    margin-top:-240px;
+    z-index: 1;
+    position: relative;
+}
+.invoiceTable{
+    width:100%;
+}
+.invoiceTable thead{
+    width:100%;
+background-color: #F8F8F8;
+
+
+}
+.invoiceTable thead tr th{
+    color:#7A7A7A;
+    font-weight: 500;
+    padding:11px 0;
+ 
+}
+.invoiceTable tbody tr td {
+    padding:11px 0;
+    color:#7A7A7A;
+}
+.invoiceTable tbody tr {
+    border-bottom:1px solid #DBDBDB;
+}
+.invoiceTotal{
+    background-color: #F8F8F8;
+    border-radius:  0 0 5px 5px;
+    overflow: hidden;
+    float: RIGHT;
+    width:45%;
+    padding:21px 16px;
+}
+.clearfix{
+    overflow: auto;
+}
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.jawainvoice{
+    overflow: auto;
+}
+.invoiceTotal ul {
+    list-style-type: none;
+}
+.invoiceTotal ul li{
+    width:100%;
+    padding-bottom: 16px;
+    margin-bottom:25px;
+    padding-left:15px;
+}
+.invoiceTotal ul li:first-child{
+    border-bottom: 1px solid #DBDBDB;
+}
+.invoiceTotal ul li span:last-child{
+    float:right
+}
+.invoiceTotalTitle span{
+    color:#18355C;
+    font-weight: 500;
+}
+.invoiceNote{
+padding:30px 0;
+    margin-top:66px;
+    border-top: 1px solid #DBDBDB;
+    border-bottom: 1px solid #DBDBDB;
+}
+.invoiceNote p{
+    font-size:15px;
+    color:#7A7A7A;
+} 
+.invoiceNote  h4{
+ margin-bottom: 19px;
+}
+.invoiceTotalDetails .invoiceDetailsTitle{
+    font-weight: 700;
+}
+.invoiceTotalFooter p{
+    margin:0;
+    color:#7A7A7A
+}
+.invoiceTotalFooter  p:last-child{
+    font-weight: 500;
 }
