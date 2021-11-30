@@ -121,9 +121,12 @@ background-color: #F8F8F8;
 .invoiceTotal ul {
     list-style-type: none;
 }
+.invoiceTotal ul li:first-child{
+    padding-bottom: 16px;
+}
 .invoiceTotal ul li{
     width:100%;
-    padding-bottom: 16px;
+
     margin-bottom:25px;
     padding-left:15px;
 }
@@ -160,6 +163,11 @@ padding:30px 0;
 }
 .invoiceTotalFooter  p:last-child{
     font-weight: 500;
+    font-size: .98em;
+}
+.invoiceTotal ul li:last-child{
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 @media (min-width:767px) and (max-width:1300px){
     body{
