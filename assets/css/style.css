@@ -1,0 +1,11 @@
+body{
+    background-color: rgba(241, 247, 255,.81);
+}
+.headerBackground{
+    background-image: url("../Images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius:0 0 15px 15px;
+    overflow: hidden;
+}
