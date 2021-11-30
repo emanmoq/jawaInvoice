@@ -174,7 +174,7 @@ padding:30px 0;
 }
 @media (max-width:767px){
     body{
-        font-size:9px;
+        font-size:7px;
     }
     .invoiceTotal{
         width:100%;
