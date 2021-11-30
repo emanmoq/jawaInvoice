@@ -62,11 +62,13 @@ img{
 .invoiceDetailsList li{
     font-size: 1em;
     color:#7A7A7A;
-    margin-bottom: 10px;;
+    margin-bottom: 10px;
+    text-align: left !important;
+    justify-content: left !important;
+
 }
 .invoiceBody .row .row{
     justify-content: left;
-    width: 100%;
 }
 .invoiceBody{
     margin-top:-240px;
@@ -196,5 +198,8 @@ padding:30px 0;
     }
     .invoiceDetailsTitle{
         margin-bottom: 10px;;
+    }
+    .invoiceBody li.row{
+        display: block;
     }
 }
