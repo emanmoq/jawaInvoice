@@ -169,6 +169,12 @@ padding:30px 0;
     margin-bottom: 0;
     padding-bottom: 0;
 }
+.qrCodeImg{
+    float:left;
+    width:184px;
+
+    margin-top:16px;
+}
 @media (min-width:767px) and (max-width:1300px){
     body{
         font-size:10px;
