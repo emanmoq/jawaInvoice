@@ -105,7 +105,12 @@ background-color: #F8F8F8;
     overflow: hidden;
     float: RIGHT;
     width:45%;
-    padding:21px 16px;
+    padding:14px 16px;
+    height: 210px;
+    overflow: hidden;
+}
+.invoiceTable p{
+    margin:0
 }
 .clearfix{
     overflow: auto;
@@ -122,12 +127,12 @@ background-color: #F8F8F8;
     list-style-type: none;
 }
 .invoiceTotal ul li:first-child{
-    padding-bottom: 16px;
+    padding-bottom: 10px;
 }
 .invoiceTotal ul li{
     width:100%;
 
-    margin-bottom:25px;
+    margin-bottom:15px;
     padding-left:15px;
 }
 .invoiceTotal ul li:first-child{
@@ -140,6 +145,24 @@ background-color: #F8F8F8;
     color:#18355C;
     font-weight: 500;
     font-size: 1em;;
+}
+.invoiceTotalTitle span:first-child{
+    float: left;
+}
+.invoiceTotalTitle span:last-child{
+    float:right
+}
+.invoiceTotalDetails span:first-child{
+    float: left;
+}
+.invoiceTotalDetails span:last-child{
+    float:right
+}
+.invoiceTotal p{
+    margin:0;
+}
+.invoiceTotal .invoiceDetailsTitle{
+margin:0;
 }
 .invoiceNote{
 padding:30px 0;
@@ -172,8 +195,7 @@ padding:30px 0;
 .qrCodeImg{
     float:left;
     width:184px;
-
-    margin-top:16px;
+    margin-top:23px;
 }
 @media (min-width:767px) and (max-width:1300px){
     body{
